@@ -1,0 +1,23 @@
+.footer{
+    /* background: linear-gradient(180deg,
+    #0a0a08 0%,
+    rgb(38, 38, 38) 100%); */
+    background-color: #1d0019;
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #fff;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer p:hover {
+    filter: drop-shadow(0 0 10px #bb34d5);
+}
